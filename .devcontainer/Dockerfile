@@ -2,7 +2,7 @@
 FROM python:3.11-slim
 
 # Set working directory inside the container
-WORKDIR /workspace
+WORKDIR /workspaces/MedCLIP
 
 # Copy requirements.txt first (for caching)
 COPY requirements.txt ./
